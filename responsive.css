@@ -1,0 +1,80 @@
+@media (max-width:600px) {
+   
+    
+#music{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    border-radius: 0;
+}
+
+.musicbox{
+    width: 100%;
+    /* justify-content: flex-end; */
+    margin-top: 10px;
+}
+#controls{
+    width: 100%;
+    height:650px;
+    justify-content: flex-end;
+    
+    
+}
+#cards{
+    width: 100%;
+    max-height: 47vh; /* Set a maximum height for the scrollable div */
+    overflow: auto; /* Enable vertical scrolling */
+    scrollbar-width: none; /* Hide the default scrollbar for Firefox */
+    -ms-overflow-style: none;
+    
+}
+#cards::-webkit-scrollbar {
+    display: none;
+  }
+.card:hover{
+    /* opacity: 0.7; */
+    background-color: white;
+    color: black;
+}
+#progressBar, #timeStamps{
+width: 70%;
+margin: 2px;
+}
+
+}
+
+@media (max-height: 650px) and (orientation: landscape){
+    #navbar{
+        position: static;
+    }
+    #main{
+        height: 100%;
+    }
+    #music{
+        width: 100%;
+        height: 100%;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        border-radius: 0;
+    }
+    .musicbox{
+        width: 45%;
+        /* height: 100vh; */
+    }
+    #cards{
+        max-height: 100vh;
+    }
+    
+    #controls{
+        width: 55%;
+    
+    }
+    #progressBar{
+        width: 55%;
+    }
+    #timeStamps{
+        width:55%;
+    }
+    }

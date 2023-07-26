@@ -1,0 +1,170 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* height: 100%; */
+}
+*{
+    box-sizing: border-box;
+}
+.fontPrimary{
+    font-family: 'Roboto', sans-serif;
+}
+.fontSecondary{
+    font-family: 'Poppins', sans-serif;
+color: white;
+}
+#navbar img{
+   height: 40px;
+   margin: 5px 24px;
+   filter: invert(100);
+}
+#navbar{
+    display: flex;
+    background-color: #2A2F4F;
+    width: 100%;
+    position: fixed;
+}
+#navbar ul li{
+    display: inline;
+    list-style: none;
+}
+#navbar ul li a{
+text-decoration: none;
+margin: 10px;
+color: white;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height:100vh;
+    background-color: #FDE2F3;
+    justify-content: center;
+    align-items: center;
+    
+}
+#music{
+    display: flex;
+    width: 75%;
+    height: 450px;
+    background-color: #232740f0;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.9);
+    border-radius: 23px;
+    
+    
+}
+#music h1{
+    color: white;
+    margin-left: 23px;
+}
+.musicbox{
+    width: 35%;
+    
+}
+#cards{
+    padding: 2px;
+    width: 100%;
+    max-height: 100%; /* Set a maximum height for the scrollable div */
+    overflow: auto; /* Enable vertical scrolling */
+    scrollbar-width: none; /* Hide the default scrollbar for Firefox */
+    -ms-overflow-style: none;
+    
+}
+#cards::-webkit-scrollbar {
+    display: none;
+  }
+.card img{
+    height: 40px;
+    display: inline;
+    padding: 5px;
+    border-radius: 50%;
+}
+.card h4{
+    display: inline;
+}
+.card{
+    background-color: white;
+    display: flex;
+    /* border: 1.5px solid white; */
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    height: 44px;
+    cursor: pointer;
+    box-shadow: 0 6px 5px 0 rgba(0, 0, 0, 0.9);
+overflow: hidden;
+}
+.card:hover{
+    background-color:#232740f0;
+    color: white;
+}
+#stop{
+    display: none;
+}
+#coverImg{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 4px;
+    border: 1px solid black;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.9);
+
+    
+    /* display: inline-block; */
+}
+#controls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    /* height: 100%; */
+    
+}
+#controls h3,#controls h4{
+    margin: 2px;
+    text-shadow: 0 10px 14px rgba(0, 0, 0, 0.9);
+    
+    
+}
+
+#functions img{
+   
+    height: 45px;
+    filter: invert(100) ;
+    margin: 8px;
+    cursor: pointer;
+
+    
+    
+}
+#progressBar{
+    width: 35%;
+    color: white;
+    accent-color: coral;
+    cursor: pointer;
+    /* --webkit-appearance: none; */
+    
+    
+}
+
+
+#timeStamps{
+    width:35%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding: 0;
+    height: 10px;
+    margin: 0;
+}
+#timeStamps h6{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: white;
+}
