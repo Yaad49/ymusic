@@ -29,7 +29,7 @@ var song8 = new song("52 Bars.mp3", "src/img/4.jfif", "Karan Aujla", "src/songs/
 var song9 = new song("52 Bars.mp3", "src/img/4.jfif", "Karan Aujla", "src/songs/52 Bars.mp3");
 var song10 = new song("52 Bars.mp3", "src/img/4.jfif", "Karan Aujla", "src/songs/52 Bars.mp3");
 var song11 = new song("52 Bars.mp3", "src/img/4.jfif", "Karan Aujla", "src/songs/52 Bars.mp3");
-var song12 = new song("52 Bars.mp3", "src/img/4.jfif", "Karan Aujla", "src/songs/52 Bars.mp3");
+//var song12 = new song("52 Bars.mp3", "src/img/4.jfif", "Karan Aujla", "src/songs/52 Bars.mp3");
 
 
 // make a new array with song objects*********************
