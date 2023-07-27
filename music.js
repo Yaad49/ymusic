@@ -24,11 +24,11 @@ var song3 = new song("Game Over.mp3", "src/img/1.jpg", "Karan Aujla", "src/songs
 var song4 = new song("25-25.mp3", "src/img/2.jpg", "Arjan Dhillon", "src/songs/25-25.mp3");
 var song5 = new song("52 Bars.mp3", "src/img/4.jfif", "Karan Aujla", "src/songs/52 Bars.mp3");
 var song6 = new song("Aurora.mp3", "src/img/aurora.jpg", "K-391 & RORY", "src/songs/Aurora.mp3");
-var song7 = new song("ice-op.mp3", "src/img/4.jfif", "OP Beatz", "src/songs/ice-op.mp3");
+var song7 = new song("ice-op.mp3", "src/img/ice.jpeg", "OP Beatz", "src/songs/ice-op.mp3");
 var song8 = new song("Maharani.mp3", "src/img/2.jpg", "Arjan Dhillon", "src/songs/Maharani.mp3");
 var song9 = new song("On and On.mp3", "src/img/on.jfif", "Cartoon", "src/songs/On and On.mp3");
-var song10 = new song("Rise Up", "src/img/4.jfif", "The Fat Rat", "src/songs/Rise Up.mp3");
-var song11 = new song("52 Bars.mp3", "src/img/4.jfif", "Karan Aujla", "src/songs/52 Bars.mp3");
+var song10 = new song("Rise Up", "src/img/RiseUp.jfif", "The Fat Rat", "src/songs/Rise Up.mp3");
+//var song11 = new song("52 Bars.mp3", "src/img/4.jfif", "Karan Aujla", "src/songs/52 Bars.mp3");
 //var song12 = new song("52 Bars.mp3", "src/img/4.jfif", "Karan Aujla", "src/songs/52 Bars.mp3");
 
 
