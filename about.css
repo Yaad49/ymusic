@@ -7,7 +7,7 @@ body{
     color: white;
 }
 .container{
-    margin: 10px 10%;
+    margin: 10px 5%;
 }
 .heading{
     font-family: 'Roboto', sans-serif;
@@ -20,7 +20,7 @@ body{
     color: rgb(221, 219, 219);
 }
 .btn{
-    padding: 15px 20px;
+    padding: 13px 15px;
     outline: 2px solid white;
     display: block;
     width: fit-content;
