@@ -33,7 +33,7 @@ var song10 = new song("Rise Up", "src/img/RiseUp.jfif", "The Fat Rat", "src/song
 
 
 // make a new array with song objects*********************
-var songList = new Array(song1, song2, song3, song4, song5,song6 ,song7,song8,song9,song10,song11);
+var songList = new Array(song1, song2, song3, song4, song5,song6 ,song7,song8,song9,song10);
 var count = 1; // to generate id
 // create cards for each song*****************************
 songList.forEach(function (element) {
